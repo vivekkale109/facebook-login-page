@@ -1,0 +1,43 @@
+body {
+    background-color: #eff2f5;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    align-content: center;
+    padding-top: 15vh;
+}
+
+.container-l {
+    padding: 20px;
+    max-width: 400px;
+}
+
+.container-r {
+    max-width: 400px;
+}
+
+.login-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.forgot {
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.create-page {
+    text-align: center;
+    padding: 20px;
+}
+
+.create-page a {
+    color: black !important;
+}
